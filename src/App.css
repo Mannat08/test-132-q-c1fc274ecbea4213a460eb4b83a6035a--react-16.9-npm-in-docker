@@ -1,7 +1,14 @@
 .App {
+  font-family: sans-serif;
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  border: 2px solid black;
+  background-color: #bdbdbd;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -31,3 +38,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.screen {
+  color: #6d6d6d;
+  width: auto;
+  height: 20%;
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: right;
+  font-size: x-large;
+}
+.answers {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button {
+  width: 25%;
+  height: 40%;
+  font-size: 20px;
+  background-color: white;
+  border: 0.1px solid black;
+}
+[id="/"] {
+  background-color: #e95c51;
+}
+[id="*"] {
+  background-color: #e95c51;
+}
+[id="-"] {
+  background-color: #e95c51;
+}
+[id="+"] {
+  background-color: #e95c51;
+}
+[id="^"] {
+  background-color: #e95c51;
+}
+[id="5"] {
+  background-color: #f2a026;
+}
+[id="0"] {
+  width: 50%;
+}
+#btn1 {
+  background-color: #009688;
+}
+.head {
+  width: auto;
+  height: 15%;
+  border: 1px solid black;
+  background-color: #424242;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
